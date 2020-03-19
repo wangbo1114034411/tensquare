@@ -1,0 +1,18 @@
+server:
+  port: 9010
+spring:
+  application:
+    name: tensquare-friend
+  datasource:   # 配置数据源
+    driver-class-name: com.mysql.jdbc.Driver
+    url: jdbc:mysql://192.168.43.228:3306/tensquare_friend?characterEncoding=utf-8
+    username: root
+    password: 123456
+  jpa:      # 配置jpa
+    database: mysql
+    show-sql: true
+jwt:
+  config:
+    # 加盐
+    key: lmzw
+    ttl: 3600000

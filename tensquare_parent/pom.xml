@@ -11,6 +11,9 @@
         <module>tensquare_qa</module>
         <module>tensquare_user</module>
         <module>tensquare_article</module>
+        <module>tensquare_article_crawler</module>
+        <module>tensquare_spit</module>
+        <module>tensquare_friend</module>
     </modules>
     <packaging>pom</packaging>
 
